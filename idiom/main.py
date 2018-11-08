@@ -70,7 +70,6 @@ def sub_proc(sole_dict, share_dict):
 
 
 if __name__ == '__main__':
-    catalog_list = [112]
     page_list = list()
     for catalog in catalog_list:
         url = url_pattern.format(catalog, str(catalog).zfill(3), 1)
